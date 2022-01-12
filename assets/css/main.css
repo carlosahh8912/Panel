@@ -1,0 +1,26 @@
+#pos_detail::-webkit-scrollbar, #product-content::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+#pos_detail::-webkit-scrollbar:vertical, #product-content::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+#pos_detail::-webkit-scrollbar-button:increment,#pos_detail::-webkit-scrollbar-button, #product-content::-webkit-scrollbar-button:increment,#product-content::-webkit-scrollbar-button {
+    display: none;
+} 
+
+#pos_detail::-webkit-scrollbar:horizontal, #pos_detail::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+#pos_detail::-webkit-scrollbar-thumb, #product-content::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+#pos_detail::-webkit-scrollbar-track, #product-content::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
