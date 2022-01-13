@@ -1,6 +1,2 @@
-!assets/.gitignore
-protected/runtime/*
-!protected/runtime/.gitignore
-protected/data/*.db
-themes/classic/views/
-app/vendor
+composer.phar
+app/vendor/
